@@ -1,5 +1,5 @@
 // O outlet faz com que seja possivel visualizar o conteudo da pagina que clicamos
-// através dos links
+// através dos links 
 
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
