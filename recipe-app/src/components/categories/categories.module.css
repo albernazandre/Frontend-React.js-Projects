@@ -1,0 +1,89 @@
+.container{
+    height: calc(100vh - 60px);
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.wrapper{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.titles > h5{
+    font-size: 24px;
+    color: #d79734;
+    letter-spacing: 1px;
+}
+
+.titles > h2{
+    font-size: 32px;
+    color: #bc8738;
+    letter-spacing: 1px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.category{
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #d79734;
+    background-color: #fff;
+    color: #d79734;
+    border-radius: 8px;
+}
+
+.category.active{
+    background-color: #d79734;
+    color: #fff;
+}
+
+.recipes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+}
+
+.recipe{
+   height: 350px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 0.5rem; 
+}
+
+.imgContainer{
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    transition: 150ms;
+}
+
+.imgContainer > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.imgContainer > img:hover{
+    transform: scale(1.025);
+}
+
+.imgContainer > h3{
+    color: #333;
+}
