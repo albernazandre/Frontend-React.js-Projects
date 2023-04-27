@@ -1,0 +1,30 @@
+.carousel {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  width: 200%;
+}
+
+.box img {
+  height: 90%;
+  padding: 10px;
+  width: 140px;
+}
+
+.child {
+  flex-shrink: 0;
+  width: 30%;
+}
+
+.startRecipe {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+}
+
+.riscado {
+  text-decoration: line-through solid black;
+}
