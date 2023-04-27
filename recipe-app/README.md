@@ -8,7 +8,7 @@
 <p>👨‍💻 Css3<p>
 
   
-O projeto Recipe App consiste numa aplicação simples de receitas em que o usuário pode clicar em pratos específicos e poderá ver a sua receita através de uma página de detalhes sobre o prato. Além disso, a aplicação conta com um carrossel básico com alguns pratos e possui estilização finalizada.
+O projeto Recipe App consiste numa aplicação simples de receitas em que o usuário pode clicar em pratos específicos e observar suas receitas através de uma página de detalhes sobre o prato. Além disso, a aplicação conta com um carrossel básico contendo alguns pratos via requisição de API e possui estilização finalizada.
   
   
 <h3 align="center">Linguagens e ferramentas utilizadas no projeto:</h3>
