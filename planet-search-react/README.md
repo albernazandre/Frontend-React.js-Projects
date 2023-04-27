@@ -1,4 +1,6 @@
-# Boas-vindas ao repositório do projeto Star Wars Planets Search!
+# Boas-vindas ao repositório do projeto Star Wars Planets Search! (Projeto resolvido no curso de Dev Web da Trybe Fintech)
+
+# Atenção: Não está estilizado.
 
 ![img](projectIntro.gif)
 
