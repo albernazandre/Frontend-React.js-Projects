@@ -8,7 +8,7 @@
 <p>👨‍💻 Css3<p>
 
 
-Projeto consiste numa aplicação simples de cálculo de despesas em que se pode incluir, deletar ou editar despesas em tabela.
+O projeto budget calculator consiste numa aplicação simples de cálculo de despesas em que se pode incluir, deletar ou editar despesas em  uma tabela. Os valores principais da calculadora de despesas são o valor monetário e descrição da despesa específica.
   
   
 <h3 align="center">Linguagens e ferramentas utilizadas no projeto:</h3>
