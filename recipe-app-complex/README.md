@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório do projeto App de Receitas! (Projeto resolvido no curso de Dev Web da Trybe Fintech)
 
-#Atenção: não está estilizado.
+# Atenção: não está estilizado.
 
 
 Para realizar o projeto, atente-se a cada passo descrito a seguir. Se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
