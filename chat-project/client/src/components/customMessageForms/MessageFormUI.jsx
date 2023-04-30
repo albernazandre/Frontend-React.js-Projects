@@ -2,39 +2,17 @@ import React, { useState } from 'react';
 import Dropzone from 'react-dropzone';
 import { PaperAirplaneIcon, PaperClipIcon, XMarkIcon } from '@heroicons/react/24/solid';
 
-const StandardMessageForm = ({ props, activeChat }) => {
-  // console.log('activeChat', activeChat);
-  // console.log('props', props);
 
-  const [message, setMessage] = useState("");
-  const [attachment, setAttachment] = useState("");
+const MessageFormUI = ({
+  setAttachment,
+  message,
+  handleChange,
+  handleSubmit,
+}) => {
+
   // preview de upload de imagens no chat
   const [preview, setPreview] = useState("");
 
-  // Funcao de envio de mensagem de texto e imagem
-  const handleSubmit = async () => {
-    const date = new Date()
-      .toISOString()
-      .replace("T", " ")
-      .replace("Z", `${Math.floor(Math.random() * 1000)}+00:00`);
-    const at = attachment ? [{ blob: attachment, file: attachment.name }] : [];
-    const form = {
-      attachments: at,
-      created: date,
-      sender_username: props.username,
-      text: message,
-      activeChatId: activeChat.id,
-    }
-
-    props.onSubmit(form);
-    setMessage("");
-    setAttachment("");
-  };
-  
-  // funcao que modifica input da mensagem no chat
-  const handleChange = (e) => setMessage(e.target.value);
-
-  
   return (
     <div className='message-form-container'>
       {preview && (
@@ -98,4 +76,4 @@ const StandardMessageForm = ({ props, activeChat }) => {
   )
 }
 
-export default StandardMessageForm
+export default MessageFormUI;
