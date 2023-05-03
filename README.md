@@ -1,9 +1,20 @@
 <h1 align="center">Frontend React.js Projects</h1>
 <h3 align="center">Projetos Frontend em React.js que abordam os seguintes conhecimentos:</h3>
 
-- 👨‍💻 React.js [React](React)
+- 👨‍💻 Components and functions
+- 👨‍💻 React Hooks
+- 👨‍💻 Custom Hooks
+- 👨‍💻 React Router
+- 👨‍💻 Redux
+- 👨‍💻 Frameworks de estilização
+- 👨‍💻 Testes
+- 👨‍💻 Higher order functions
+- 👨‍💻 CSS e SaSS
+- 👨‍💻 DOM
+- 👨‍💻 Conceitos simples como: if/else, spread operator, try/catch, props, componentDidMount, etc.
 
-<h3 align="left">Connect with me:</h3>
+
+<h3 align="left">Contate-me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/andré-albernaz-0a8956125/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="andré-albernaz-0a8956125/" height="30" width="40" /></a>
 </p>
